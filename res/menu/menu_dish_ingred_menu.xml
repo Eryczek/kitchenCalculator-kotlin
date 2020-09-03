@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:amdroid="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchIcon"
+        android:icon="@drawable/ic_search_toolbar"
+        amdroid:showAsAction="collapseActionView|ifRoom"
+        amdroid:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="Search">
+
+    </item>
+
+    <item
+        android:id="@+id/createIcon"
+        android:icon="@drawable/ic_create_toolbar"
+        amdroid:showAsAction="always"
+        android:title="create icon">
+
+    </item>
+
+</menu>

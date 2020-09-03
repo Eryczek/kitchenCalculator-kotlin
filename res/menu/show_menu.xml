@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:amdroid="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/deleteIcon"
+        android:icon="@drawable/ic_delete_toolbar"
+        amdroid:showAsAction="always"
+        android:title="delete icon">
+
+    </item>
+
+    <item
+        android:id="@+id/editIcon"
+        android:icon="@drawable/ic_edit_toolbar"
+        amdroid:showAsAction="always"
+        android:title="edit_icon">
+
+    </item>
+
+
+</menu>
